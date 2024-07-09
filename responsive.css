@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1200px) {
+    .text {
+        left: calc(50vw - 296px);    
+    }
+}
+@media only screen and (max-width: 1023px){
+    
+    * {            
+        box-sizing: border-box;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "A" "B";    
+        height: 100vh;
+    }
+    .text {
+        top: 40%;
+        left: 15%;
+    }
+    .description-section {        
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "sectionimg"
+        "section-h2"
+        "section-text"        
+        "section-a";
+        height: auto;
+        column-gap: 5%;
+        justify-content: center;
+    }
+    .sectionimg {
+        width: auto;
+    }
+    .section-h2 {
+        padding-top: 25px;
+    }
+    .section-a {
+        justify-self: center;
+        text-wrap: nowrap;
+        width: auto;
+    }
+    .footer-p {
+        padding: 0em 3em;
+    }
+}
+@media only screen and (max-width: 767px) {
+    * {
+        margin: 0;       
+    }
+    .text {            
+        left: 0;
+        width: 100vw;
+}
+.highlight {    
+    
+    width: 100vw;
+    height: 100vw;  
+}
+.image {
+    width: 100vw;
+}
+nav {
+    top: 0px;
+    left: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:"navlist" "navlogo" ;
+    height: 15vh;
+    width: 100%;
+}
+#nav_list {
+    display: flex;
+    justify-content: space-around;
+    grid-area: navlist;
+    gap: 5px;
+    width: 100%;
+    list-style-type: none;
+    padding: 5%;
+}
+.nav_link {
+    padding: 5px 5px;
+    }
+.description-section {
+    margin: 0;
+    margin-top: 25px;
+    width: 100vw;
+    justify-items: center;
+}
+.imgdiv {
+    width: 100vw;
+}
+.sectionimg {    
+    width: 100vw;
+}
+.section-h2 {
+    width: 100vw    ;
+    padding: 15px 5%;
+   
+}
+.section-text {
+    width: 100vw;
+    padding: 0px 5%;
+}
+.section-a {
+    width: 50%;
+}
+.choose > * {
+    width: 100vw;
+}
+footer {
+    display: grid;
+    grid-template-rows: 1fr .5fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:  "logo-white" "find-us" "footer-p";
+    height: 25vh;
+}
+.footer-p {
+    text-align: center;
+}
+}

@@ -1,0 +1,125 @@
+.wb1 {
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    width: 25vw;
+    animation-name: wb1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;  
+    z-index: 1;  
+}
+@keyframes wb1 {
+    0% { transform: translateY(0vw); transform: translateX(0vw); }
+    50% { transform:  translateY(500vw);transform: translateX(25vw); rotate: 45deg;}
+    100% { transform:  translateY(0vw);transform: translateX(0vw); rotate: 135deg;opacity: 0%;}
+}
+.text {
+   z-index: 2; 
+}
+
+.wb2 {
+    position: absolute;
+    top: 15vw;
+    left: 30vw;
+    width: 40px;
+    animation-name: wb2;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate ; 
+    z-index: 1;  
+}
+@keyframes wb2 {
+    0% { transform: translateY(0vw); }
+    33% { transform:  translateY(-10vw); transform: translateX(-5vw); rotate: 45deg;}
+    66% { transform:  translateY(-20vw);transform: translateX(-10vw); rotate: 45deg;}
+    100% { transform:  translateY(-30vw);transform: translateX(-15vw); rotate: 45deg;opacity: 10%;}
+}
+.wb3 {
+    position: absolute;
+    top: 30vw;
+    left: 45vw;
+    width: 30px;
+    animation-name: wb3;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate ; 
+    z-index: 1;  
+}
+@keyframes wb3 {
+    0% {transform: translateX(0vw);  }
+    33% {  transform: translateX(-10vw); rotate: 45deg;}
+    66% { transform: translateX(-20vw); rotate: 135deg;}
+    100% {transform: translateX(-30vw); rotate: 45deg; opacity: 10%;}
+}
+.wb4 {
+    position: absolute;
+    bottom: 10vw;
+    left: 30vw;
+    width: 100px;
+    animation-name: wb4;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate ;  
+    z-index: 1;  
+}
+@keyframes wb4 {
+    0% { transform: translateY(0vw); }
+    33% { transform:  translateY(3vw); transform: translateX(2.5vw); rotate: 45deg;opacity: 66%;}
+    66% { transform:  translateY(6vw);transform: translateX(5.0vw); rotate: 45deg;opacity: 33%;}
+    100% { transform:  translateY(10vw);transform: translateX(7.5vw); rotate: 45deg; opacity: 10%;}
+}
+.wb5 {
+    position: absolute;
+    bottom: 20vw;
+    left: 40vw;
+    width: 50px;
+    animation-name: wb5;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate ; 
+    z-index: 1;  
+}
+@keyframes wb5 {
+    0% { transform: translateY(0vw); }
+    33% { transform:  translateY(3.3vw); transform: translateX(2.5vw); rotate: 45deg;}
+    66% { transform:  translateY(6.6vw);transform: translateX(5.0vw); rotate: 45deg;}
+    100% { transform:  translateY(10vw);transform: translateX(7.5vw); rotate: 45deg;scale: 1.5; opacity: 10%;}
+}
+.text {
+    animation-name: main-title;
+    animation-duration: 3s;
+    }
+@keyframes main-title {
+    from { transform: translateX(-100%); opacity: 0%; }
+    to { transform: translateX(0%); opacity: 100%;}
+}
+#heroimg, .sectionimg {
+    animation-name: heroimg;
+    animation-duration: 5s;
+}
+@keyframes heroimg {
+    from { scale: 1.1; }
+    to { scale: 1;}
+}
+.slide {
+    animation-name: slideInUp;
+    animation-duration: 3s;
+}
+@keyframes slideInUp {
+    from { transform: translateY(20%);opacity: 50%;}
+    to { transform: translateY(0);opacity: 100%;}
+}
+.slide-aside {
+    animation: moveSlideshow 50s linear infinite;
+  }
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-2025px); 
+    }
+  }
