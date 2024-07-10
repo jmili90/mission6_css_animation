@@ -12,7 +12,7 @@
 }
 @keyframes wb1 {
     0% { transform: translateY(0vw); transform: translateX(0vw); }
-    50% { transform:  translateY(500vw);transform: translateX(25vw); rotate: 45deg;}
+    50% { transform:  translateY(50vw);transform: translateX(25vw); rotate: 45deg;}
     100% { transform:  translateY(0vw);transform: translateX(0vw); rotate: 135deg;opacity: 0%;}
 }
 .text {
@@ -25,7 +25,7 @@
     left: 30vw;
     width: 40px;
     animation-name: wb2;
-    animation-duration: 250s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction:alternate ; 
@@ -43,7 +43,7 @@
     left: 45vw;
     width: 30px;
     animation-name: wb3;
-    animation-duration: 80s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction:alternate ; 
@@ -59,9 +59,9 @@
     position: absolute;
     bottom: 10vw;
     left: 30vw;
-    width: 100px;
+    width: 60px;
     animation-name: wb4;
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction:alternate ;  
@@ -79,7 +79,7 @@
     left: 40vw;
     width: 50px;
     animation-name: wb5;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction:alternate ; 
@@ -101,7 +101,7 @@
 }
 #heroimg, .sectionimg {
     animation-name: heroimg;
-    animation-duration: 5s;
+    animation-duration: 15s;
 }
 @keyframes heroimg {
     from { scale: 1.1; }
