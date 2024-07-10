@@ -61,6 +61,45 @@
 .image {
     width: 100vw;
 }
+
+.wb1 {
+    top: 50vw;
+    left: 5vw;
+    width: 70vw;
+}
+
+
+.wb2 {
+    
+    top: 65vw;
+    left: 60vw;
+    width: 40px;
+    
+    
+}
+
+.wb3 {
+    
+    top: 70vw;
+    left: 45vw;
+    width: 30px;
+     
+}
+
+.wb4 {    
+    bottom: 40vw;
+    left: 30vw;
+    width: 60px;    
+    animation-duration: 15s;
+}
+.wb5 {
+    position: absolute;
+    bottom: 25vw;
+    left: 60vw;
+    width: 50px;    
+    animation-duration: 10s;
+    }
+
 nav {
     top: 0px;
     left: 0px;
